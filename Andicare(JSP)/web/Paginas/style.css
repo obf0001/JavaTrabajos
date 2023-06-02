@@ -1,0 +1,70 @@
+header {
+    background: rgba(32, 104, 16,1); /*fondo de barra, blanco 70% opacidad*/
+    width: 100%; /*El ancho de la barra es toda la pantalla*/
+    position: fixed; /*Para que la barra nos acompanie aunque hagamos scroll*/
+    z-index: 100; /*orden en el que se amontona, en este caso la barra va siempre encima*/
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; /*esconda o corte todo elemento fuera del bloque del menu*/
+}
+
+nav ul li {
+    float: left; /*se usa para que este todo alineado a la izquierda*/
+    font-size: 20px; /*tamanio de fuente*/
+}
+nav ul li a {
+    display: block; /*bloqueando el display le podemos aniadir padding*/
+    padding: 10px; /*espacio entre elementos en este caso de 10px*/
+    color: #fff; /*color de los enlaces (Para que no se vea azul de enlaces)*/
+    text-decoration: none; /*sin decoracion de texto*/
+}
+nav ul li:hover {
+    background: #1b570e;
+}
+
+#baseSesion{
+    background: url('');
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+    alignment-adjust: middle;
+    font-family: Calibri; /*Fuente de la escritura*/
+}
+
+#baseCargaUsuarios{ /*base de la pagina de carga de usuario*/
+    text-align: center;
+    font-family: Calibri;
+    margin: 0 auto;
+}
+
+#fuente{
+    font-family: Calibri;
+}
+
+#titulo{
+    color: black;
+    font-size: 50px;
+}
+
+#subtitulo{
+    font-size: 25px;
+}
+
+#tablaInicioSesion{ /*tabla para la pagina de inicio sesion*/
+    font-family: Calibri;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#td,th{/*tabla para la pagina de carga de usuarios*/
+    width: 0%;
+    height: 0%;
+    border: 1px solid black;
+}
+
+#celdas{
+    border: 1px solid black;
+}
