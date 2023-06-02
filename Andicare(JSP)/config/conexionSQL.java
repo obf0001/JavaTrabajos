@@ -11,7 +11,7 @@ public class conexionSQL {
     public Connection getConexion() throws ClassNotFoundException{
         Class.forName("com.mysql.cj.jdbc.Driver");
         try{//(direccion de la base de datos, usuario, contrasenia)
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","obyf2003");
+            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","1234");
             //Antes estaba asi Connection conexion = DriverManager.getConnection(etc) y no estaba inicializado arriba
             System.out.println("Conexión establecida correctamente");
             return conexion;
